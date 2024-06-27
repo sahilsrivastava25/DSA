@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0054-spiral-matrix) |
 | [0268-missing-number](https://github.com/sahilsrivastava25/DSA/tree/master/0268-missing-number) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/sahilsrivastava25/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1580-shuffle-the-array](https://github.com/sahilsrivastava25/DSA/tree/master/1580-shuffle-the-array) |
 # Hash Table
 |  |
 | ------- |
