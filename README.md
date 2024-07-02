@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/0118-pascals-triangle) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/sahilsrivastava25/DSA/tree/master/1293-three-consecutive-odds) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Dynamic Programming
@@ -64,9 +65,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+## Hash Table
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+## Sorting
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 <!---LeetCode Topics End-->
