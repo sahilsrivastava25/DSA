@@ -8,21 +8,19 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        int cas[4];
+        int ans = INT_MAX;
 
         //case1
-        cas[0] = nums[n-4] - nums[0];
+        ans = min(ans, nums[n-4] - nums[0]);
 
         //case2
-        cas[1] = nums[n-3] - nums[1];
+        ans = min(ans, nums[n-3] - nums[1]);
 
         //case3
-        cas[2] = nums[n-2] - nums[2];
+        ans = min(ans, nums[n-2] - nums[2]);
 
         //case4
-        cas[3] = nums[n-1] - nums[3];
-
-        int ans = *min_element(cas, cas + 4);
+        ans = min(ans, nums[n-1] - nums[3]);
 
         return ans;
     }
