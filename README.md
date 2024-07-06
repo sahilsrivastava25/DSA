@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/sahilsrivastava25/DSA/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3469-maximum-height-of-a-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/3469-maximum-height-of-a-triangle) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -115,4 +116,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
+## Enumeration
+|  |
+| ------- |
+| [3469-maximum-height-of-a-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/3469-maximum-height-of-a-triangle) |
 <!---LeetCode Topics End-->
