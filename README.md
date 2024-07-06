@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
+| [2645-pass-the-pillow](https://github.com/sahilsrivastava25/DSA/tree/master/2645-pass-the-pillow) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/sahilsrivastava25/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2645-pass-the-pillow](https://github.com/sahilsrivastava25/DSA/tree/master/2645-pass-the-pillow) |
 ## Hash Table
 |  |
 | ------- |
