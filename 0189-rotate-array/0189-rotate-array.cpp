@@ -1,7 +1,6 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        ios::sync_with_stdio(false);
 
         k = k % nums.size();
 
