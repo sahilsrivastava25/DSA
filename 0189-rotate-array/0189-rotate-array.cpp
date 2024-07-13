@@ -3,15 +3,10 @@ public:
     void rotate(vector<int>& nums, int k) {
         ios::sync_with_stdio(false);
 
-        int n = nums.size();
+        k = k % nums.size();
 
-        if(k == 0)
-        return;
-
-        k = k % n;
-
-        reverse(nums.begin(), nums.begin() + n - k);
-        reverse(nums.begin() + n - k, nums.end());
+        reverse(nums.begin(), nums.begin() + nums.size() - k);
+        reverse(nums.begin() + nums.size() - k, nums.end());
         reverse(nums.begin(), nums.end());
     }
 };
