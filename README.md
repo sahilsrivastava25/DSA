@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
 | [1293-three-consecutive-odds](https://github.com/sahilsrivastava25/DSA/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -117,12 +119,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
 ## Sorting
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/sahilsrivastava25/DSA/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -160,4 +164,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/sahilsrivastava25/DSA/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/sahilsrivastava25/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/sahilsrivastava25/DSA/tree/master/2846-robot-collisions) |
+## Sliding Window
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 <!---LeetCode Topics End-->
