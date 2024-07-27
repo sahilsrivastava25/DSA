@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sahilsrivastava25/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/sahilsrivastava25/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/sahilsrivastava25/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sahilsrivastava25/DSA/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sahilsrivastava25/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/sahilsrivastava25/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0328-odd-even-linked-list) |
