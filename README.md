@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
+| [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sahilsrivastava25/DSA/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/sahilsrivastava25/DSA/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/sahilsrivastava25/DSA/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/sahilsrivastava25/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sahilsrivastava25/DSA/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/sahilsrivastava25/DSA/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/sahilsrivastava25/DSA/tree/master/2502-sort-the-people) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sahilsrivastava25/DSA/tree/master/3235-minimum-cost-to-convert-string-i) |
