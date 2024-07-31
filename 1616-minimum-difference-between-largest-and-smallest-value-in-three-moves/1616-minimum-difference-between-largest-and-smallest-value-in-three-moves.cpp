@@ -1,27 +1,9 @@
 class Solution {
 public:
-    int minDifference(vector<int>& nums) {
-        int n = nums.size();
-
-        if(n <= 4)
-        return 0;
-
-        sort(nums.begin(), nums.end());
-
-        int ans = INT_MAX;
-
-        //case1
-        ans = min(ans, nums[n-4] - nums[0]);
-
-        //case2
-        ans = min(ans, nums[n-3] - nums[1]);
-
-        //case3
-        ans = min(ans, nums[n-2] - nums[2]);
-
-        //case4
-        ans = min(ans, nums[n-1] - nums[3]);
-
-        return ans;
+        int minDifference(vector<int>& A) {
+        int n = A.size();
+        if (n < 5) return 0;
+        sort(A.begin(), A.end());
+        return min({A[n - 1] - A[3], A[n - 2] - A[2], A[n - 3] - A[1], A[n - 4] - A[0]});
     }
 };
