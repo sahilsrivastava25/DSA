@@ -1,52 +1,27 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        int firstCPI = -1;
-        int prevCPI = -1;
-        int current = 1;
+    vector<int> nodesBetweenCriticalPoints(ListNode* head) 
+    {
+        vector<int>store;
 
-        vector<int> res(2);
-        res[0] = INT_MAX;
+        int ans1 = INT_MAX, cur, next, n;
+        int last = head->val, position = 2;
 
-        ListNode* prev = head;
-        ListNode* curr = head->next;
+        while(head->next)
+        {
+            cur = head->val, next = head->next->val;
 
-        while(curr->next != NULL){
-            ListNode* nxt = curr->next;
-            if((curr->val > prev->val && curr->val > nxt->val) || (curr->val < prev->val && curr->val < nxt->val)){
-                if(firstCPI == -1){
-                    firstCPI = current;
-                    prevCPI = current;
-                }
+            if((last > cur and cur < next) or (last < cur and cur > next)) 
+                store.push_back(position);
+            position++;
+            last = cur, head = head->next;
 
-                else{
-                    res[0] = min(res[0],current - prevCPI);
-                    prevCPI = current;
-                }
-            }
-            prev = prev->next;
-            curr = curr->next;
-            current++;
+            n = store.size();
+            if(n > 1) ans1 = min(ans1, store[n-1] - store[n-2]);
         }
-
-        if(firstCPI != -1 && res[0] != INT_MAX)
-        res[1] = prevCPI - firstCPI;
-
-        else{
-            res[0] = -1;
-            res[1] = -1;
-        }
-
-        return res;
+        
+        if(ans1 == INT_MAX) return {-1, -1};
+        
+        return {ans1, store.back() - store[0]};
     }
 };
