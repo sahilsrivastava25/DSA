@@ -1,23 +1,39 @@
 class Solution {
 public:
-    int minHeightShelves(std::vector<std::vector<int>>& books, int shelfWidth) {
-        int n = books.size();
-        std::vector<int> dp(n + 1, INT_MAX);
-        dp[0] = 0;  // Base case: no books require 0 height
-        
-        for (int i = 1; i <= n; ++i) {
-            int total_width = 0;
-            int max_height = 0;
-            for (int j = i; j > 0; --j) {
-                total_width += books[j-1][0];
-                if (total_width > shelfWidth) {
-                    break;
-                }
-                max_height = std::max(max_height, books[j-1][1]);
-                dp[i] = std::min(dp[i], dp[j-1] + max_height);
-            }
+    int n;
+    int WIDTH;
+    int t[1001][1001];
+    int solve(vector<vector<int>>& books, int i, int remainW, int maxHt) {
+        if(i >= n) {
+            return maxHt;
         }
-        
-        return dp[n];
+
+        if(t[i][remainW] != -1) {
+            return t[i][remainW];
+        }
+
+        int bookW = books[i][0];
+        int bookH = books[i][1];
+
+        int keep = INT_MAX;
+        int skip = INT_MAX;
+
+        if(bookW <= remainW) { 
+            keep = solve(books, i+1, remainW - bookW, max(maxHt, bookH));
+        }
+
+        skip = maxHt + solve(books, i+1, WIDTH - bookW, bookH);
+
+        return t[i][remainW] = min(keep, skip);
+    }
+
+
+    int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
+        memset(t, -1, sizeof(t));
+        n = books.size();
+        WIDTH = shelfWidth;
+
+        int remainW = shelfWidth;
+        return solve(books, 0, remainW, 0);
     }
 };
