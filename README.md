@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/sahilsrivastava25/DSA/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/sahilsrivastava25/DSA/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/sahilsrivastava25/DSA/tree/master/2502-sort-the-people) |
+| [2634-minimum-common-value](https://github.com/sahilsrivastava25/DSA/tree/master/2634-minimum-common-value) |
 | [2727-number-of-senior-citizens](https://github.com/sahilsrivastava25/DSA/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/sahilsrivastava25/DSA/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sahilsrivastava25/DSA/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sahilsrivastava25/DSA/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2634-minimum-common-value](https://github.com/sahilsrivastava25/DSA/tree/master/2634-minimum-common-value) |
 ## Simulation
 |  |
 | ------- |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/sahilsrivastava25/DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sahilsrivastava25/DSA/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/sahilsrivastava25/DSA/tree/master/2502-sort-the-people) |
+| [2634-minimum-common-value](https://github.com/sahilsrivastava25/DSA/tree/master/2634-minimum-common-value) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/sahilsrivastava25/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Binary Search
 |  |
@@ -164,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
+| [2634-minimum-common-value](https://github.com/sahilsrivastava25/DSA/tree/master/2634-minimum-common-value) |
 ## Sorting
 |  |
 | ------- |
