@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0948-sort-an-array) |
+| [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
 | [1196-filling-bookcase-shelves](https://github.com/sahilsrivastava25/DSA/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/sahilsrivastava25/DSA/tree/master/0807-custom-sort-string) |
+| [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/sahilsrivastava25/DSA/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
+| [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -331,5 +334,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
 <!---LeetCode Topics End-->
