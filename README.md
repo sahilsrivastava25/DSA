@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sahilsrivastava25/DSA/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
+| [0238-product-of-array-except-self](https://github.com/sahilsrivastava25/DSA/tree/master/0238-product-of-array-except-self) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/sahilsrivastava25/DSA/tree/master/0238-product-of-array-except-self) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
 <!---LeetCode Topics End-->
