@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/sahilsrivastava25/DSA/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/sahilsrivastava25/DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/sahilsrivastava25/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/sahilsrivastava25/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/sahilsrivastava25/DSA/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/sahilsrivastava25/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/sahilsrivastava25/DSA/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/sahilsrivastava25/DSA/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/sahilsrivastava25/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -368,4 +371,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/sahilsrivastava25/DSA/tree/master/0238-product-of-array-except-self) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
+## Design
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
