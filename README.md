@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sahilsrivastava25/DSA/tree/master/0002-add-two-numbers) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
+| [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [1642-water-bottles](https://github.com/sahilsrivastava25/DSA/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sahilsrivastava25/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
+| [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sahilsrivastava25/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Array
 |  |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/sahilsrivastava25/DSA/tree/master/0807-custom-sort-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
