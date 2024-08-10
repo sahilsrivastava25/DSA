@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1196-filling-bookcase-shelves](https://github.com/sahilsrivastava25/DSA/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/sahilsrivastava25/DSA/tree/master/1293-three-consecutive-odds) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/sahilsrivastava25/DSA/tree/master/0807-custom-sort-string) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/sahilsrivastava25/DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/sahilsrivastava25/DSA/tree/master/0921-spiral-matrix-iii) |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/sahilsrivastava25/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/sahilsrivastava25/DSA/tree/master/2472-build-a-matrix-with-conditions) |
@@ -326,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/sahilsrivastava25/DSA/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/sahilsrivastava25/DSA/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -376,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/sahilsrivastava25/DSA/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Binary Indexed Tree
 |  |
@@ -399,4 +404,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
+## Union Find
+|  |
+| ------- |
+| [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 <!---LeetCode Topics End-->
