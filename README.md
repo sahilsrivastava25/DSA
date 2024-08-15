@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/sahilsrivastava25/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
+| [0890-lemonade-change](https://github.com/sahilsrivastava25/DSA/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/sahilsrivastava25/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0890-lemonade-change](https://github.com/sahilsrivastava25/DSA/tree/master/0890-lemonade-change) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/sahilsrivastava25/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
