@@ -1,30 +1,17 @@
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& arrays) {
-        
-        int globalMin = arrays[0][0];
-        int globalMax = arrays[0].back();
-        int result = 0;
+        int smallest = arrays[0][0];
+        int biggest = arrays[0].back();
+        int max_distance = 0;
 
         for (int i = 1; i < arrays.size(); ++i) {
- 
-            int localMin = arrays[i][0];
-            int localMax = arrays[i].back();
-
-          
-            result = max(result, max(localMax - globalMin, globalMax - localMin));
-
-            globalMin = min(globalMin, localMin);
-            globalMax = max(globalMax, localMax);
+            max_distance = max(max_distance, abs(arrays[i].back() - smallest));
+            max_distance = max(max_distance, abs(biggest - arrays[i][0]));
+            smallest = min(smallest, arrays[i][0]);
+            biggest = max(biggest, arrays[i].back());
         }
 
-        return result;
+        return max_distance;
     }
 };
-
-static const int speedup = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 0;
-}();
