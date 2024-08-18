@@ -1,40 +1,49 @@
 class Solution {
 public:
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        const int inf = 1 << 29;
-        int g[26][26];
-        for (int i = 0; i < 26; ++i) {
-            fill(begin(g[i]), end(g[i]), inf);
-            g[i][i] = 0;
+        long long arr[26][26];
+        for (int i = 0; i < 26; i++) {
+            fill(arr[i], arr[i] + 26, LLONG_MAX); // Initialize with LLONG_MAX
+            arr[i][i] = 0; // Cost to change a character to itself is 0
         }
-
-        for (int i = 0; i < original.size(); ++i) {
-            int x = original[i] - 'a';
-            int y = changed[i] - 'a';
-            int z = cost[i];
-            g[x][y] = min(g[x][y], z);
+        
+        // Fill the transformation costs
+        for (int i = 0; i < original.size(); i++) {
+            int val1 = original[i] - 'a';
+            int val2 = changed[i] - 'a';
+            arr[val1][val2] = min(arr[val1][val2], (long long)cost[i]); // Store minimum cost
         }
-
-        for (int k = 0; k < 26; ++k) {
-            for (int i = 0; i < 26; ++i) {
-                for (int j = 0; j < 26; ++j) {
-                    g[i][j] = min(g[i][j], g[i][k] + g[k][j]);
+        
+        // Floyd-Warshall algorithm to find minimum costs between all pairs
+        for (int k = 0; k < 26; k++) {
+            for (int i = 0; i < 26; i++) {
+                for (int j = 0; j < 26; j++) {
+                    if (arr[i][k] != LLONG_MAX && arr[k][j] != LLONG_MAX) {
+                        arr[i][j] = min(arr[i][j], arr[i][k] + arr[k][j]);
+                    }
                 }
             }
         }
+        
+        long long ans = 0; // Initialize answer
+        for (int i = 0; i < source.size(); i++) {
+            int val1 = source[i] - 'a';
+            int val2 = target[i] - 'a';
 
-        long long ans = 0;
-        int n = source.length();
-        for (int i = 0; i < n; ++i) {
-            int x = source[i] - 'a';
-            int y = target[i] - 'a';
-            if (x != y) {
-                if (g[x][y] >= inf) {
-                    return -1;
+            if (val1 == val2) {
+                continue; // No cost if characters are the same
+            }
+
+            if (arr[val1][val2] == LLONG_MAX) {
+                return -1; // Return -1 if no valid transformation exists
+            } else {
+                // Check for potential overflow before adding
+                if (ans > LLONG_MAX - arr[val1][val2]) {
+                    return -1; // Handle potential overflow
                 }
-                ans += g[x][y];
+                ans += arr[val1][val2]; // Accumulate cost
             }
         }
-        return ans;
+        return ans; // Return total cost
     }
 };
