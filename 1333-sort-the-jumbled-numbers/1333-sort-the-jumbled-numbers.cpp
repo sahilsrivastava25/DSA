@@ -1,25 +1,35 @@
 class Solution {
 public:
-    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
-        auto translate_integer = [&](int num) -> int {
-            string digits = to_string(num);
-            for (char& digit : digits) {
-                digit = '0' + mapping[digit - '0'];
-            }
-            return stoi(digits);
-        };
-
-        unordered_map<int, int> number_mapping;
-        for (int num : nums) {
-            if (number_mapping.find(num) == number_mapping.end()) {
-                number_mapping[num] = translate_integer(num);
-            }
+    using int3=array<int, 3>;
+    static int convert(int x, vector<int>& mapping){
+        if (x==0) return mapping[0];//  edge case
+        int z=0;
+        for(int pow10=1; x>0; pow10*=10){
+            auto [q, r]=div(x, 10);
+            z+=mapping[r]*pow10;
+            x=q;
         }
+        return z;
+    }
 
-        sort(nums.begin(), nums.end(), [&](int a, int b) {
-            return number_mapping[a] < number_mapping[b];
-        });
-
+    static vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+        const int n=nums.size();
+        vector<int3> mapNum(n);
+        for(int i=0; i<n; i++){
+            int x=nums[i];
+            mapNum[i]={convert(x, mapping),i,  x};//(mapping nums, idx, x)
+        }
+        sort(mapNum.begin(), mapNum.end());// Use default sort is better
+        for(int i=0; i<n; i++)
+            nums[i]=mapNum[i][2];
         return nums;
     }
 };
+
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
