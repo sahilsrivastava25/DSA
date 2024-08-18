@@ -1,23 +1,32 @@
 class Solution {
 public:
-    int numTeams(vector<int>& rating) {
-        int total = 0;
+    static int  numTeams(vector<int>& rating) {
+        const int n = rating.size();
+        int cnt= 0;
+        for (int i= 1; i < n-1; i++) {
+            int L[2]={0}, R[2]={0};
 
-        for ( int i = 0 ; i < rating.size() ; i ++ ){
-            int right_less = 0 , right_more = 0 , left_less = 0 , left_more = 0;
+            // Count ratings on the left of i
+            for (int j = 0; j < i; j++) 
+                L[rating[j] < rating[i]]++;//rating is unique
+            
+            // Count ratings on the right of i
+            for (int k=i+1; k<n; k++) 
+                R[rating[k] < rating[i]]++;
 
-            for ( int j = i + 1 ; j < rating.size() ; j ++ ){
-                if ( rating[j] < rating[i] ) right_less++;
-                else if ( rating[i] < rating[j] ) right_more++;
-            }
-            for ( int j = 0 ; j < i ; j ++ ){
-                if ( rating[j] < rating[i] ) left_less++;
-                else if ( rating[i] < rating[j] ) left_more ++;
-            }
-
-            total += right_less*left_more + right_more*left_less;
+            // number of valid teams
+            cnt += L[0]*R[1] + L[1]*R[0];
         }
-
-        return total;
+        return cnt;
     }
 };
+
+
+
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
