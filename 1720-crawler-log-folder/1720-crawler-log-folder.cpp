@@ -1,22 +1,27 @@
 class Solution {
 public:
-    int minOperations(vector<string>& logs) {
-        int ans = 0;
-
-        for(int i = 0; i < logs.size(); i++){
-            if(ans == 0 && logs[i] == "../")
-            continue;
-
-            else if(logs[i] == "../")
-            ans--;
-
-            else if(logs[i] == "./")
-            continue;
-
-            else
-            ans++;
+    static int minOperations(vector<string>& logs) {
+        int level=0;
+        for(auto& dir: logs){
+            if (dir=="../") 
+                level-=(level>0);
+            else if (dir!="./")
+                level++;
+        //    cout<<level<<endl;
         }
-
-        return ans;
+        return level;
     }
 };
+
+
+
+
+
+
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
