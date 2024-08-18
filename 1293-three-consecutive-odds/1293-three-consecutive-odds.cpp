@@ -1,11 +1,19 @@
 class Solution {
 public:
-    bool threeConsecutiveOdds(vector<int>& arr) 
-    {
-        int n = arr.size();
-        for(int i=0;i<n-2;i++)
-            if(arr[i]%2 and arr[i+1]%2 and arr[i+2]%2) 
-                return true;
-        return false;
+    static bool threeConsecutiveOdds(vector<int>& arr) {
+        int len=0;
+        for(int x: arr){
+            len=(x&1)?len+1:0;
+            if (len==3) return 1;
+        }
+        return 0;
     }
 };
+
+
+auto init = []() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    return 'c';
+}();
