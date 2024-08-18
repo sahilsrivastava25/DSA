@@ -1,61 +1,46 @@
 class Solution {
 public:
-    using int2 = pair<int, int>;
-
-    inline static int wtime(int step, int time, int change) {
-        int ans=0;
-        for(int i=0; i < step; i++) {
-            int gr=ans/change;
-            if (gr&1)  // If it's a red light
-                ans=(gr+ 1)*change;
-            ans+=time;
-        }
-        return ans;
-    }
-
-    static int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
-        vector<vector<int>> adj(n + 1);
-        for (auto& e : edges) {
-            int v = e[0], w = e[1];
-            adj[v].push_back(w);
-            adj[w].push_back(v);
+    int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
+        // Create the graph using an unordered_map of lists
+        unordered_map<int, list<int>> g;
+        for (const auto& e : edges) {
+            int u = e[0], v = e[1];
+            g[u].push_back(v);
+            g[v].push_back(u);
         }
 
-        vector<int> dist(n+1, INT_MAX), dist2(n+1, INT_MAX);
-        queue<int2> q;  // {node, distance}
-        q.emplace(1, 0);
-        dist[1]=0;
+        // Priority queue for Dijkstra's algorithm
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
+        q.push({0, 1});  // (time, node)
 
+        vector<int> uniqueVisit(n + 1, 0);  // To track the number of unique visits
+        vector<int> dis(n + 1, -1);  // To store the minimum time to reach each node
+        
         while (!q.empty()) {
-            auto [x, d]=q.front();
-            q.pop();
-            for (int y : adj[x]) {
-                int newD=d+1;
-                if (newD < dist[y]) {
-                    dist2[y]=dist[y];
-                    dist[y]=newD;
-                    q.emplace(y, newD);
-                } 
-                else if (newD>dist[y] && newD<dist2[y]) {
-                    dist2[y]=newD;
-                    q.emplace(y, newD);
-                }
+            auto [t, node] = q.top();
+            q.pop();  // Get the node with the smallest time
+            
+            if (dis[node] == t || uniqueVisit[node] >= 2) {
+                continue;  // Skip if already visited or relaxed twice
+            }
+            
+            uniqueVisit[node]++;
+            dis[node] = t;
+            
+            if (node == n && uniqueVisit[node] == 2) {
+                return dis[node];
+            }
+            
+            // Calculate the leaving time (waiting for the green light)
+            if ((t / change) % 2 != 0) {
+                t = (t / change + 1) * change;
+            }
+            
+            for (int nei : g[node]) {
+                q.push({t + time, nei});
             }
         }
-
-        int steps=dist2[n];
-        if (steps == INT_MAX) return -1;
-        return wtime(steps, time, change);
+        
+        return -1;
     }
 };
-
-
-
-
-
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
