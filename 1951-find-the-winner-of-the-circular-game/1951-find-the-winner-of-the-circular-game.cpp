@@ -1,12 +1,18 @@
 class Solution {
 public:
     int findTheWinner(int n, int k) {
-        
-        int ans = 0;
+        std::vector<int> circle;
+        for (int i = 1; i <= n; ++i) {
+            circle.push_back(i);
+        }
+        int cur_ind = 0;
 
-        for(int i = 2; i <= n; i++)
-        ans = (ans + k) % i;
+        while (circle.size() > 1) {
+            int next_to_remove = (cur_ind + k - 1) % circle.size();
+            circle.erase(circle.begin() + next_to_remove);
+            cur_ind = next_to_remove;
+        }
 
-        return (ans + 1);
+        return circle[0];
     }
 };
