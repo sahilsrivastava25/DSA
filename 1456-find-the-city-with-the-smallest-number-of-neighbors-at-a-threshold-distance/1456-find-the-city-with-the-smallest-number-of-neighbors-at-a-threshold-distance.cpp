@@ -1,57 +1,53 @@
-#include <vector>
-#include <limits>
-#include <algorithm>
-
-using namespace std;
-
 class Solution {
 public:
-    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        // Initialize the distance matrix with infinity
-        vector<vector<int>> dist(n, vector<int>(n, numeric_limits<int>::max()));
-        
-        // Distance to itself is 0
-        for (int i = 0; i < n; ++i) {
+    int n, distanceThreshold;
+    int dist[100][100];
+    
+    void FW(vector<vector<int>>& edges){
+        fill(&dist[0][0], &dist[0][0]+100*100, 1e9);
+        for (int i = 0; i < n; i++) 
             dist[i][i] = 0;
+        for (auto& e : edges){
+            int u=e[0], v = e[1], w = e[2];
+            if (w <= distanceThreshold) //drop large weights
+                dist[u][v]=dist[v][u]=w;
         }
-        
-        // Populate the distance matrix with the given edges
-        for (const auto& edge : edges) {
-            int u = edge[0], v = edge[1], w = edge[2];
-            dist[u][v] = w;
-            dist[v][u] = w;
-        }
-        
-        // Floyd-Warshall algorithm
-        for (int k = 0; k < n; ++k) {
-            for (int i = 0; i < n; ++i) {
-                for (int j = 0; j < n; ++j) {
-                    if (dist[i][k] != numeric_limits<int>::max() && dist[k][j] != numeric_limits<int>::max()) {
-                        dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
-                    }
+        // Main loop
+        for (int k = 0; k < n; k++)
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n; j++) {
+                    dist[i][j]=min(dist[i][j], dist[i][k]+dist[k][j]);
                 }
+    }
+
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
+        this->n = n;
+        this->distanceThreshold = distanceThreshold;
+        FW(edges);
+        
+        int min_cnt = n, city = -1;
+        for (int i = 0; i <n ; i++){
+            int cnt = -1;  // i itself doesn't count
+            for (int j = 0; j < n; j++){
+                if (dist[i][j] <= distanceThreshold) 
+                    cnt++;
+            }
+            if (cnt <=min_cnt ){
+                min_cnt=cnt;
+                city=i;
             }
         }
-        
-        // Find the city with the smallest number of reachable cities
-        // and if there is a tie, choose the city with the greatest number.
-        int minReachableCities = numeric_limits<int>::max();
-        int bestCity = -1;
-        
-        for (int i = 0; i < n; ++i) {
-            int reachableCities = 0;
-            for (int j = 0; j < n; ++j) {
-                if (dist[i][j] <= distanceThreshold) {
-                    reachableCities++;
-                }
-            }
-            
-            if (reachableCities <= minReachableCities) {
-                minReachableCities = reachableCities;
-                bestCity = i;
-            }
-        }
-        
-        return bestCity;
+        return city;
     }
 };
+
+
+
+
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}(); 
