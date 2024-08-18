@@ -464,4 +464,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/sahilsrivastava25/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0503-next-greater-element-ii) |
+## Segment Tree
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/sahilsrivastava25/DSA/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
