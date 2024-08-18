@@ -1,21 +1,24 @@
 class Solution {
 public:
     double averageWaitingTime(vector<vector<int>>& customers) {
-        int timing = customers[0][0] + customers[0][1];
-        double ans =  customers[0][1];
-
-        for(int i = 1; i < customers.size(); i++){
-           if(timing > customers[i][0]){
-            ans = ans + timing + customers[i][1] - customers[i][0];
-            timing = timing + customers[i][1];
-           }
-
-           else if(timing <= customers[i][0]){
-            timing = customers[i][0] + customers[i][1];
-            ans = ans + customers[i][1];
-           }
+        const int n=customers.size();
+        double prepare=0, sum=0;
+        for(auto& t: customers){
+            prepare=((t[0]>prepare)?t[0]:prepare)+t[1];
+            sum+=prepare-t[0];
         }
-
-        return ans/customers.size();
+        return sum/n;
     }
 };
+
+
+
+
+
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
