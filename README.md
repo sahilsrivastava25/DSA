@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
+| [0650-2-keys-keyboard](https://github.com/sahilsrivastava25/DSA/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/sahilsrivastava25/DSA/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sahilsrivastava25/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0118-pascals-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/0118-pascals-triangle) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
+| [0650-2-keys-keyboard](https://github.com/sahilsrivastava25/DSA/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/sahilsrivastava25/DSA/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sahilsrivastava25/DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/sahilsrivastava25/DSA/tree/master/1511-count-number-of-teams) |
