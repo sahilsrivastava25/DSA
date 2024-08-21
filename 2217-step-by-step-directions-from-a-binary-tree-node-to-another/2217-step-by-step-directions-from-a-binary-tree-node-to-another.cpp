@@ -1,94 +1,57 @@
 class Solution {
 public:
+    unordered_map<int, TreeNode*> parent;
+    unordered_map<int, int> height;
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        queue<TreeNode*> q;
-        q.push(root);
-        TreeNode* start_node = nullptr;
-
-        while (!q.empty()) {
-            TreeNode* cur_node = q.front();
-            q.pop();
-
-            if (cur_node->val == startValue) {
-                start_node = cur_node;
+        string firstPath = "", secondPath = "";
+        TreeNode* lca = findLCA(root, startValue, destValue);
+        construct(lca, firstPath, startValue);
+        construct(lca, secondPath, destValue);
+        reverse(firstPath.begin(), firstPath.end());
+        reverse(secondPath.begin(), secondPath.end());
+        return string(firstPath.size(), 'U') + secondPath;
+    }
+    
+    
+    void dfs(TreeNode* p, TreeNode* root, int h) {
+        if(root == NULL) return;
+        dfs(root, root -> left, h + 1);
+        dfs(root, root -> right, h + 1);
+        parent[root -> val] = p;
+        height[root -> val] = h;
+    }
+    
+    TreeNode* findLCA(TreeNode* root, int u, int v) {
+        dfs(NULL, root, 0);
+        TreeNode* lca;
+        while(u != v) {
+            if(parent[u] == parent[v]) {
+                lca = parent[u];
                 break;
             }
-
-            if (cur_node->left) {
-                q.push(cur_node->left);
-            }
-            if (cur_node->right) {
-                q.push(cur_node->right);
-            }
-        }
-
-        unordered_map<int, TreeNode*> nodes_parents;
-        q.push(root);
-
-        while (!q.empty()) {
-            TreeNode* cur_node = q.front();
-            q.pop();
-
-            if (cur_node->left) {
-                nodes_parents[cur_node->left->val] = cur_node;
-                q.push(cur_node->left);
-            }
-            if (cur_node->right) {
-                nodes_parents[cur_node->right->val] = cur_node;
-                q.push(cur_node->right);
+            if(height[u] > height[v]) {
+                if(parent[u] -> val == v) lca = parent[u];
+                u = parent[u] -> val;
+            } else {
+                if(parent[v] -> val == u) lca = parent[v];
+                v = parent[v] -> val;
             }
         }
-
-        unordered_set<TreeNode*> visited;
-        q.push(start_node);
-        unordered_map<TreeNode*, pair<TreeNode*, char>> tracked_path;
-
-        TreeNode* destination_node = nullptr;
-
-        while (!q.empty()) {
-            TreeNode* cur_node = q.front();
-            q.pop();
-            visited.insert(cur_node);
-
-            if (cur_node->val == destValue) {
-                destination_node = cur_node;
-                break;
-            }
-
-            if (nodes_parents.find(cur_node->val) != nodes_parents.end() && visited.find(nodes_parents[cur_node->val]) == visited.end()) {
-                TreeNode* parent = nodes_parents[cur_node->val];
-                q.push(parent);
-                tracked_path[parent] = make_pair(cur_node, 'U'); 
-            }
-
-            if (cur_node->left && visited.find(cur_node->left) == visited.end()) {
-                q.push(cur_node->left);
-                tracked_path[cur_node->left] = make_pair(cur_node, 'L'); 
-            }
-
-            if (cur_node->right && visited.find(cur_node->right) == visited.end()) {
-                q.push(cur_node->right);
-                tracked_path[cur_node->right] = make_pair(cur_node, 'R'); 
-            }
+        return lca;
+    }
+    
+    bool construct(TreeNode* root, string& s, int val) {
+        if(root == NULL) {
+            return false;
         }
-
-        stack<char> result_path;
-        TreeNode* cur_node = destination_node;
-
-        while (cur_node != start_node) {
-            auto it = tracked_path.find(cur_node);
-            if (it != tracked_path.end()) {
-                result_path.push(it->second.second); 
-                cur_node = it->second.first;
-            }
+        if(root -> val == val) {
+            return true;
         }
-
-        string res;
-        while (!result_path.empty()) {
-            res += result_path.top();
-            result_path.pop();
-        }
-
-        return res;
+        
+        bool left = construct(root -> left, s, val);
+        bool right = construct(root -> right, s, val);
+        if(left) s += "L";
+        else if(right) s += "R";
+        return left | right;
     }
 };
