@@ -1,80 +1,55 @@
 class Solution {
 public:
-    //topological sort using BFS (Kahn's algorithm)
-    static vector<int> topo_sort(int k, vector<vector<int>>& conditions){
-        vector<int> deg(k+1, 0);
-        vector<vector<int>> adj(k+1);
-        for(auto& edge: conditions){
-            int v=edge[0], w=edge[1];
-            adj[v].push_back(w);
-            deg[w]++;
+    vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rowConditions, vector<vector<int>>& colConditions) {
+        vector<int> order1 = generateTopologicalSort(rowConditions, k);
+        vector<int> order2 = generateTopologicalSort(colConditions, k);
+        
+        if (order1.size() < k || order2.size() < k) {
+            return {};
         }
-        queue<int> q;
-        for (int i = 1; i<=k; i++) {
-            if (deg[i] == 0) 
-                q.push(i);
+        
+        unordered_map<int, int> m;
+        for (int i = 0; i < k; i++) {
+            m[order2[i]] = i;
         }
+        
+        vector<vector<int>> ans(k, vector<int>(k, 0));
+        for (int i = 0; i < k; i++) {
+            ans[i][m[order1[i]]] = order1[i];
+        }
+        
+        return ans;
+    }
 
-        int count=0;
-        vector<int> ans;
-        ans.reserve(k);
-        while(!q.empty()){
-            int j=q.front();
+private:
+    vector<int> generateTopologicalSort(const vector<vector<int>>& A, int k) {
+        vector<int> deg(k, 0);
+        vector<int> order;
+        vector<vector<int>> graph(k);
+        queue<int> q;
+        
+        for (const auto& c : A) {
+            graph[c[0] - 1].push_back(c[1] - 1);
+            deg[c[1] - 1]++;
+        }
+        
+        for (int i = 0; i < k; i++) {
+            if (deg[i] == 0) {
+                q.push(i);
+            }
+        }
+        
+        while (!q.empty()) {
+            int x = q.front();
             q.pop();
-            ans.push_back(j);
-            count++;
-            for(int k:adj[j]){
-                deg[k]--;
-                if (deg[k] == 0) {
-                    q.push(k);
+            order.push_back(x + 1);
+            for (int y : graph[x]) {
+                if (--deg[y] == 0) {
+                    q.push(y);
                 }
             }
         }
-        if(count != k) return {};// has cycle
-        else return ans ;
-
-    }
-
-    static void print(auto& c){
-        cout<<"[";
-        for(int x: c){
-            cout<<x;
-            if (x!=c.back()) cout<<", ";
-        }
-        cout<<"]\n";
-    }
-
-    static vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rowConditions, vector<vector<int>>& colConditions) {
-        auto order_row=topo_sort(k, rowConditions);
-        auto order_col=topo_sort(k, colConditions);
-
-    //  print out the ordering in row & in col
-    //    print(order_row), print(order_col);
-
-        if (order_row.empty()|| order_col.empty())
-            return {};// some conflict
-
-        vector<vector<int>> arr(k, vector<int>(k));
-        // Find pos for x where 1<=x<=k
-        vector<int> pos_i(k+1, -1), pos_j(k+1, -1);
-        for(int i=0; i<k; i++){
-            pos_i[order_row[i]]=i;
-            pos_j[order_col[i]]=i;
-        }
-
-        for(int x=1; x<=k; x++)
-            arr[pos_i[x]][pos_j[x]]=x;
         
-        return arr;
+        return order;
     }
 };
-
-
-
-
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
