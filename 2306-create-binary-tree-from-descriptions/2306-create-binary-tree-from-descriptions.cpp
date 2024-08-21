@@ -1,53 +1,27 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
- * };
- */
 class Solution {
 public:
-    static TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
-        const int N = 100001;
-        bitset<N> seen = 0;
-        int root = -1;
-        int parent[N] = {0};//parent val
-        TreeNode* node[N] = {NULL};// array for TreeNode*
-
-        for (auto& d : descriptions) {
-            int x = d[0], y = d[1], l = d[2];
-            if (!seen[x]) {
-                node[x] = new TreeNode(x);
-                seen[x] = 1;
-                if (parent[x] == 0)
-                    root = x;
-            }
-            if (!seen[y]) {
-                node[y] = new TreeNode(y);
-                seen[y] = 1;
-            }
-            parent[y] = x;
-            if (l)
-                node[x]->left = node[y];
-            else
-                node[x]->right = node[y];
+    TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
+        unordered_map<int, TreeNode*> mp;
+        unordered_set<int> hasParent;
+        for(int i = 0; i < descriptions.size(); i++) {
+            if(mp.find(descriptions[i][0]) == mp.end())
+                mp[descriptions[i][0]] = new TreeNode(descriptions[i][0]);
+            if(mp.find(descriptions[i][1]) == mp.end())
+                mp[descriptions[i][1]] = new TreeNode(descriptions[i][1]);
+            hasParent.insert(descriptions[i][1]);
         }
-        while (parent[root] != 0)// find real root
-            root = parent[root];
-        return node[root];
+        
+        TreeNode* root;
+        for(int i = 0; i < descriptions.size(); i++) {
+            if(descriptions[i][2]) { //left
+                mp[descriptions[i][0]] -> left = mp[descriptions[i][1]];
+            } else { //right
+                mp[descriptions[i][0]] -> right = mp[descriptions[i][1]];
+            }
+            if(hasParent.find(descriptions[i][0]) == hasParent.end()) {
+                root = mp[descriptions[i][0]];
+            }
+        }
+        return root;
     }
 };
-
-
-
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
