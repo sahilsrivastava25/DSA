@@ -1,39 +1,31 @@
-
 class Solution {
 public:
-    vector<int> luckyNumbers(vector<vector<int>>& matrix) {
-        if (matrix.empty() || matrix[0].empty()) return {};
-        
-        int m = matrix.size(), n = matrix[0].size();
-        vector<int> rowMin(m, INT_MAX);
-        vector<int> colMax(n, INT_MIN);
-        
-        
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                rowMin[i] = min(rowMin[i], matrix[i][j]);
-                colMax[j] = max(colMax[j], matrix[i][j]);
+    static vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+        const int m=matrix.size(), n=matrix[0].size();
+        int max_rmin=INT_MIN, posj=-1;
+        for(int i=0; i<m; i++){
+            int p=min_element(matrix[i].begin(), matrix[i].end())-matrix[i].begin();
+            int x=matrix[i][p];
+            if (x>max_rmin){
+                max_rmin=x;
+                posj=p;
             }
         }
-        
-       
-        vector<int> result;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == rowMin[i] && matrix[i][j] == colMax[j]) {
-                    result.push_back(matrix[i][j]);
-                }
-            }
+        for(int i=0; i<m; i++){
+            if (max_rmin<matrix[i][posj]) return {};
         }
-        
-        return result;
+            
+        return {max_rmin};
     }
 };
 
 
+
+
+
 auto init = []() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
     return 'c';
 }();
