@@ -1,3 +1,4 @@
+
 class Solution {
 private:
     int connectedComponentCount = 0;
