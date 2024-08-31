@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/sahilsrivastava25/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
+| [0344-reverse-string](https://github.com/sahilsrivastava25/DSA/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0020-valid-parentheses) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
+| [0344-reverse-string](https://github.com/sahilsrivastava25/DSA/tree/master/0344-reverse-string) |
 | [0564-find-the-closest-palindrome](https://github.com/sahilsrivastava25/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/sahilsrivastava25/DSA/tree/master/0664-strange-printer) |
