@@ -3,7 +3,7 @@ public:
     int chalkReplacer(vector<int>& chalk, int k) {
         ios::sync_with_stdio(false);
         cin.tie(NULL);
-       long long int n = chalk.size(), sum = 0;
+        long long int n = chalk.size(), sum = 0;
         vector<long long int> v(n);
 
         v[0] = chalk[0];
