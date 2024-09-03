@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/sahilsrivastava25/DSA/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sahilsrivastava25/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/sahilsrivastava25/DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/sahilsrivastava25/DSA/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/sahilsrivastava25/DSA/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/sahilsrivastava25/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/sahilsrivastava25/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/sahilsrivastava25/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sahilsrivastava25/DSA/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [1904-second-largest-digit-in-a-string](https://github.com/sahilsrivastava25/DSA/tree/master/1904-second-largest-digit-in-a-string) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/sahilsrivastava25/DSA/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/sahilsrivastava25/DSA/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/sahilsrivastava25/DSA/tree/master/2502-sort-the-people) |
