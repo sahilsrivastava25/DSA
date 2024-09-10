@@ -19,13 +19,10 @@ public:
         ListNode* temp = head;
         
         while(temp && temp->next){
-            int a = temp->val;
-            int b = temp->next->val;
-
             ListNode* midNode = new ListNode();
+            midNode->val = gcd(temp->val, temp->next->val);
             midNode->next = temp->next;
             temp->next = midNode;
-            midNode->val = gcd(a,b);
             temp = temp->next->next;
         }
         return head;
