@@ -10,11 +10,6 @@
  */
 class Solution {
 public:
-    int gcd(int a, int b){
-        if(a == 0) return b;
-        return gcd(b % a, a);
-    }
-
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ios::sync_with_stdio(false);
         cin.tie(NULL);
