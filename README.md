@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/0118-pascals-triangle) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sahilsrivastava25/DSA/tree/master/0162-find-peak-element) |
+| [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/sahilsrivastava25/DSA/tree/master/0238-product-of-array-except-self) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/sahilsrivastava25/DSA/tree/master/0148-sort-list) |
+| [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/sahilsrivastava25/DSA/tree/master/0890-lemonade-change) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
@@ -358,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0020-valid-parentheses) |
+| [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [0344-reverse-string](https://github.com/sahilsrivastava25/DSA/tree/master/0344-reverse-string) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
