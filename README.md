@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sahilsrivastava25/DSA/tree/master/0002-add-two-numbers) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
+| [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/sahilsrivastava25/DSA/tree/master/0234-palindrome-linked-list) |
+| [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sahilsrivastava25/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Array
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/0118-pascals-triangle) |
+| [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/sahilsrivastava25/DSA/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/sahilsrivastava25/DSA/tree/master/0664-strange-printer) |
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0020-valid-parentheses) |
 | [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [0344-reverse-string](https://github.com/sahilsrivastava25/DSA/tree/master/0344-reverse-string) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
@@ -589,4 +593,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sahilsrivastava25/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
