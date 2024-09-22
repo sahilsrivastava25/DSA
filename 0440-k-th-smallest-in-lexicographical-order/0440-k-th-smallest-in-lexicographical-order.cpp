@@ -1,34 +1,27 @@
 class Solution {
+private:
+    int getReqNum(long a,long b,long &n){
+        int gap=0; 
+        while(a <= n){
+            gap += min(n+1,b)-a;
+            a*=10;
+            b*=10;
+        }
+        return gap;
+    }
 public:
-    int findKthNumber(int n, int k) {
-        int currentPrefix = 1;
-        --k;  // Decrement k to handle zero-based indexing
-        
-        while (k > 0) {
-            int count = countNumbersWithPrefix(currentPrefix, n);
-            if (k >= count) {
-                ++currentPrefix;  // Move to the next prefix
-                k -= count;
-            } else {
-                currentPrefix *= 10;  // Go deeper in the current prefix
-                --k;
+    int findKthNumber(long n, int k) {
+        long num = 1;
+        for(int i=1; i<k;){
+            int req = getReqNum(num,num+1,n);
+            if(i+req <= k){
+                i+=req;
+                num++;
+            }else{
+                i++;
+                num *= 10;
             }
         }
-        
-        return currentPrefix;
-    }
-
-private:
-    int countNumbersWithPrefix(int prefix, int n) {
-        long long firstNumber = prefix, nextNumber = prefix + 1;
-        int totalCount = 0;
-
-        while (firstNumber <= n) {
-            totalCount += static_cast<int>(min(n + 1LL, nextNumber) - firstNumber);
-            firstNumber *= 10;
-            nextNumber *= 10;
-        }
-
-        return totalCount;
+        return num;
     }
 };
