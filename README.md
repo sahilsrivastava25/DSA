@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
+| [0412-fizz-buzz](https://github.com/sahilsrivastava25/DSA/tree/master/0412-fizz-buzz) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/sahilsrivastava25/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/sahilsrivastava25/DSA/tree/master/0412-fizz-buzz) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
 | [0906-walking-robot-simulation](https://github.com/sahilsrivastava25/DSA/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/sahilsrivastava25/DSA/tree/master/0921-spiral-matrix-iii) |
@@ -390,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/sahilsrivastava25/DSA/tree/master/0273-integer-to-english-words) |
 | [0344-reverse-string](https://github.com/sahilsrivastava25/DSA/tree/master/0344-reverse-string) |
+| [0412-fizz-buzz](https://github.com/sahilsrivastava25/DSA/tree/master/0412-fizz-buzz) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/sahilsrivastava25/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
