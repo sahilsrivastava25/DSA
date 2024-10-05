@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0567-permutation-in-string](https://github.com/sahilsrivastava25/DSA/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/sahilsrivastava25/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/sahilsrivastava25/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/sahilsrivastava25/DSA/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/sahilsrivastava25/DSA/tree/master/0496-next-greater-element-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0567-permutation-in-string](https://github.com/sahilsrivastava25/DSA/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/sahilsrivastava25/DSA/tree/master/0807-custom-sort-string) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/sahilsrivastava25/DSA/tree/master/0412-fizz-buzz) |
 | [0539-minimum-time-difference](https://github.com/sahilsrivastava25/DSA/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/sahilsrivastava25/DSA/tree/master/0564-find-the-closest-palindrome) |
+| [0567-permutation-in-string](https://github.com/sahilsrivastava25/DSA/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/sahilsrivastava25/DSA/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
@@ -453,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0567-permutation-in-string](https://github.com/sahilsrivastava25/DSA/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/sahilsrivastava25/DSA/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/sahilsrivastava25/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sahilsrivastava25/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
