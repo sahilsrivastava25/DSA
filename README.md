@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/sahilsrivastava25/DSA/tree/master/0890-lemonade-change) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sahilsrivastava25/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/sahilsrivastava25/DSA/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/sahilsrivastava25/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -419,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/sahilsrivastava25/DSA/tree/master/0807-custom-sort-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/sahilsrivastava25/DSA/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sahilsrivastava25/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/sahilsrivastava25/DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1720-crawler-log-folder](https://github.com/sahilsrivastava25/DSA/tree/master/1720-crawler-log-folder) |
@@ -453,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/sahilsrivastava25/DSA/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sahilsrivastava25/DSA/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sahilsrivastava25/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/sahilsrivastava25/DSA/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/sahilsrivastava25/DSA/tree/master/1582-design-browser-history) |
