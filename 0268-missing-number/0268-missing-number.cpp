@@ -1,16 +1,15 @@
 class Solution {
 public:
-    int missingNumber(vector<int>& nums){
-        int n = nums.size();
+    int missingNumber(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
 
-        int sum = 0;
-
-        for(int i = 0; i < n; i++){
-            sum += nums[i];
+        int x1 = 0, x2 = 0;
+        for(int i = 0; i < nums.size(); i++){
+            x1 = x1 ^ nums[i];
+            x2 = x2 ^ (i+1);
         }
 
-        int ad = (n*(n+1))/2;
-
-        return (ad-sum);
+        return (x1 ^ x2);
     }
 };
