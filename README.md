@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/sahilsrivastava25/DSA/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/sahilsrivastava25/DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/sahilsrivastava25/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/sahilsrivastava25/DSA/tree/master/0241-different-ways-to-add-parentheses) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sahilsrivastava25/DSA/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0040-combination-sum-ii) |
+| [0048-rotate-image](https://github.com/sahilsrivastava25/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/sahilsrivastava25/DSA/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/sahilsrivastava25/DSA/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
