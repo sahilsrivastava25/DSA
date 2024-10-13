@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/sahilsrivastava25/DSA/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sahilsrivastava25/DSA/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/sahilsrivastava25/DSA/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/sahilsrivastava25/DSA/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/sahilsrivastava25/DSA/tree/master/0238-product-of-array-except-self) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/sahilsrivastava25/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/sahilsrivastava25/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/sahilsrivastava25/DSA/tree/master/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/sahilsrivastava25/DSA/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/sahilsrivastava25/DSA/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/sahilsrivastava25/DSA/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/sahilsrivastava25/DSA/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/sahilsrivastava25/DSA/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -577,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/sahilsrivastava25/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/sahilsrivastava25/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/sahilsrivastava25/DSA/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/sahilsrivastava25/DSA/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -595,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/sahilsrivastava25/DSA/tree/master/0169-majority-element) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/sahilsrivastava25/DSA/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/sahilsrivastava25/DSA/tree/master/0948-sort-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/sahilsrivastava25/DSA/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
