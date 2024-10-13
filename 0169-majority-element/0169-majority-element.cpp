@@ -1,6 +1,9 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+        
         int cnt = 0;
         int el = nums[0];
 
