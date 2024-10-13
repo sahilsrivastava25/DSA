@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0040-combination-sum-ii) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/sahilsrivastava25/DSA/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/sahilsrivastava25/DSA/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sahilsrivastava25/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sahilsrivastava25/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/sahilsrivastava25/DSA/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/sahilsrivastava25/DSA/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/sahilsrivastava25/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/sahilsrivastava25/DSA/tree/master/0148-sort-list) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/sahilsrivastava25/DSA/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/sahilsrivastava25/DSA/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/sahilsrivastava25/DSA/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/sahilsrivastava25/DSA/tree/master/0268-missing-number) |
