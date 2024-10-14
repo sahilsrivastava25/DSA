@@ -1,47 +1,31 @@
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+
         vector<int> ans;
+        int n = matrix.size();
+        int m = matrix[0].size();
 
-        int m = matrix.size();
-        int n = matrix[0].size();
-        int total = m*n;
+        int top = 0, bottom = n - 1, left = 0, right = m - 1;
 
-        int startingRow = 0;
-        int endingCol = n-1;
-        int endingRow = m-1;
-        int startingCol = 0;
+        while(top <= bottom && left <= right){
+            for(int i = left; i <= right; i++) ans.push_back(matrix[top][i]);
+            top++;
 
-        int count = 0;
+            for(int i = top; i <= bottom; i++) ans.push_back(matrix[i][right]);
+            right--;
 
-        while(count < total){
-            for(int i = startingCol; i <= endingCol && count < total; i++){
-                ans.push_back(matrix[startingRow][i]);
-                count++;
+            if(left <= right && top <= bottom){
+                for(int i = right; i >= left; i--) ans.push_back(matrix[bottom][i]);
             }
-
-            startingRow++;
-
-            for(int i = startingRow; i <= endingRow && count < total; i++){
-                ans.push_back(matrix[i][endingCol]);
-                count++;
+            bottom--;
+            
+            if(left <= right && top <= bottom){
+                for(int i = bottom; i >= top; i--) ans.push_back(matrix[i][left]);
             }
-
-            endingCol--;
-
-            for(int i = endingCol; i >= startingCol && count < total; i--){
-                ans.push_back(matrix[endingRow][i]);
-                count++;
-            }
-
-            endingRow--;
-
-            for(int i = endingRow; i >= startingRow && count < total; i--){
-                ans.push_back(matrix[i][startingCol]);
-                count++;
-            }
-
-            startingCol++;
+            left++;
         }
 
         return ans;
