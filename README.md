@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/sahilsrivastava25/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/sahilsrivastava25/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/sahilsrivastava25/DSA/tree/master/0075-sort-colors) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/sahilsrivastava25/DSA/tree/master/0412-fizz-buzz) |
 | [0592-fraction-addition-and-subtraction](https://github.com/sahilsrivastava25/DSA/tree/master/0592-fraction-addition-and-subtraction) |
 | [0906-walking-robot-simulation](https://github.com/sahilsrivastava25/DSA/tree/master/0906-walking-robot-simulation) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/sahilsrivastava25/DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
