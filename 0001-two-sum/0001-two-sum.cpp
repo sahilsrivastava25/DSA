@@ -13,6 +13,7 @@ public:
             {
                 ans.push_back(i);
                 ans.push_back(mp[sum]);
+                break;
             }
             mp[nums[i]] = i;
         }
