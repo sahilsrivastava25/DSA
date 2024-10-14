@@ -1,25 +1,27 @@
 class Solution {
 public:
-    int nCr(int n, int r){
-        long long ans = 1;
+    vector<int> generateRow(int row){
+        vector<int> ans;
+        ans.push_back(1);
 
-        for(int i = 0; i < r; i++){
-            ans = ans * (n - i);
-            ans = ans / (i + 1);
+        long long res = 1;
+
+        for(int i = 1; i < row; i++){
+            res = res * (row - i);
+            res = res / i;
+            ans.push_back(res);
         }
 
         return ans;
     }
-
     vector<vector<int>> generate(int numRows) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+        
         vector<vector<int>> ans;
-
         for(int i = 1; i <= numRows; i++){
-            vector<int> res;
-            for(int j = 1; j <= i; j++){
-                res.push_back(nCr(i-1, j-1));
-            }
-            ans.push_back(res);
+            vector<int> temp = generateRow(i);
+            ans.push_back(temp);
         }
         return ans;
     }
