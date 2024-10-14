@@ -8,7 +8,6 @@ public:
         int cnt1 = 0, cnt2 = 0;
         int ele1 = INT_MIN, ele2 = INT_MIN;
         int min = n/3;
-        cout<<min;
         vector<int> ans;
 
         for(int i = 0; i < n; i++){
