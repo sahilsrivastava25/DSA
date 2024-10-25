@@ -2,6 +2,9 @@ class Solution {
 public:
     vector<string> removeSubfolders(vector<string>& folder) {
         // Sort the folders lexicographically so parent folders come before their subfolders
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+
         sort(folder.begin(), folder.end());
 
         // Initialize result vector with the first folder
