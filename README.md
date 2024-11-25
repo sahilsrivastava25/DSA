@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/sahilsrivastava25/DSA/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/sahilsrivastava25/DSA/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/sahilsrivastava25/DSA/tree/master/0731-my-calendar-ii) |
+| [0787-sliding-puzzle](https://github.com/sahilsrivastava25/DSA/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/sahilsrivastava25/DSA/tree/master/0792-binary-search) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/sahilsrivastava25/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0859-design-circular-deque](https://github.com/sahilsrivastava25/DSA/tree/master/0859-design-circular-deque) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/sahilsrivastava25/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/sahilsrivastava25/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0787-sliding-puzzle](https://github.com/sahilsrivastava25/DSA/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/sahilsrivastava25/DSA/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/sahilsrivastava25/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
@@ -754,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0787-sliding-puzzle](https://github.com/sahilsrivastava25/DSA/tree/master/0787-sliding-puzzle) |
 | [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1484-linked-list-in-binary-tree](https://github.com/sahilsrivastava25/DSA/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/sahilsrivastava25/DSA/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
