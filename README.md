@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3291-find-if-array-can-be-sorted](https://github.com/sahilsrivastava25/DSA/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/sahilsrivastava25/DSA/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3427-special-array-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3427-special-array-ii) |
 | [3469-maximum-height-of-a-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/3469-maximum-height-of-a-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sahilsrivastava25/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/sahilsrivastava25/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2634-minimum-common-value](https://github.com/sahilsrivastava25/DSA/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sahilsrivastava25/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/sahilsrivastava25/DSA/tree/master/2716-prime-subtraction-operation) |
+| [3427-special-array-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3427-special-array-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -826,6 +828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/sahilsrivastava25/DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/sahilsrivastava25/DSA/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
+| [3427-special-array-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3427-special-array-ii) |
 ## Design
 |  |
 | ------- |
