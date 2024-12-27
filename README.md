@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0985-bag-of-tokens](https://github.com/sahilsrivastava25/DSA/tree/master/0985-bag-of-tokens) |
 | [0999-regions-cut-by-slashes](https://github.com/sahilsrivastava25/DSA/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/sahilsrivastava25/DSA/tree/master/1002-maximum-width-ramp) |
+| [1063-best-sightseeing-pair](https://github.com/sahilsrivastava25/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sahilsrivastava25/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/sahilsrivastava25/DSA/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/sahilsrivastava25/DSA/tree/master/1207-delete-nodes-and-return-forest) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0650-2-keys-keyboard](https://github.com/sahilsrivastava25/DSA/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/sahilsrivastava25/DSA/tree/master/0664-strange-printer) |
 | [0863-sum-of-distances-in-tree](https://github.com/sahilsrivastava25/DSA/tree/master/0863-sum-of-distances-in-tree) |
+| [1063-best-sightseeing-pair](https://github.com/sahilsrivastava25/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/sahilsrivastava25/DSA/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/sahilsrivastava25/DSA/tree/master/1240-stone-game-ii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/sahilsrivastava25/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
