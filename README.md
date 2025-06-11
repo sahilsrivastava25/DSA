@@ -591,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sahilsrivastava25/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3469-maximum-height-of-a-triangle](https://github.com/sahilsrivastava25/DSA/tree/master/3469-maximum-height-of-a-triangle) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Queue
 |  |
 | ------- |
@@ -663,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/sahilsrivastava25/DSA/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3451-string-compression-iii](https://github.com/sahilsrivastava25/DSA/tree/master/3451-string-compression-iii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Stack
 |  |
 | ------- |
@@ -710,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sahilsrivastava25/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -901,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2571-find-the-pivot-integer](https://github.com/sahilsrivastava25/DSA/tree/master/2571-find-the-pivot-integer) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sahilsrivastava25/DSA/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3427-special-array-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3427-special-array-ii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/sahilsrivastava25/DSA/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Design
 |  |
 | ------- |
